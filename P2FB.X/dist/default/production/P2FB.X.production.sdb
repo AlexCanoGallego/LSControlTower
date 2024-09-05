@@ -1,0 +1,1221 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4321 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"33 C:\Users\bielcarpi\Desktop\P2FB.X\main.c
+[v _HighRSI HighRSI `IIH(v  1 e 1 0 ]
+"38
+[v _configADC configADC `(v  1 e 1 0 ]
+"43
+[v _configInterrupts configInterrupts `(v  1 e 1 0 ]
+"50
+[v _main main `(v  1 e 1 0 ]
+"17 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _BUZZ_Init BUZZ_Init `(v  1 e 1 0 ]
+"28
+[v _BUZZ_Play BUZZ_Play `(v  1 e 1 0 ]
+"37
+[v _BUZZ_PlayMelody BUZZ_PlayMelody `(v  1 e 1 0 ]
+"45
+[v _BUZZ_Motor BUZZ_Motor `(v  1 e 1 0 ]
+"24 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_Init CNT_Init `(v  1 e 1 0 ]
+"30
+[v _CNT_ShowTime CNT_ShowTime `(v  1 e 1 0 ]
+"37
+[v _CNT_ModifyTime CNT_ModifyTime `(v  1 e 1 0 ]
+"49
+[v _CNT_ResetTime CNT_ResetTime `(v  1 e 1 0 ]
+"53
+[v _CNT_Motor CNT_Motor `(v  1 e 1 0 ]
+"144
+[v _CNT_GetTime CNT_GetTime `(uc  1 e 1 0 ]
+"148
+[v _CNT_GetTimeArr CNT_GetTimeArr `(*.30uc  1 e 2 0 ]
+"9 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _JOY_Init JOY_Init `(v  1 e 1 0 ]
+"17
+[v _JOY_Enable JOY_Enable `(v  1 e 1 0 ]
+"21
+[v _JOY_Disable JOY_Disable `(v  1 e 1 0 ]
+"25
+[v _JOY_GetMove JOY_GetMove `(uc  1 e 1 0 ]
+"35
+[v _JOY_Motor JOY_Motor `(v  1 e 1 0 ]
+"58 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_Init KPAD_Init `(v  1 e 1 0 ]
+"75
+[v _KPAD_StartInput KPAD_StartInput `(v  1 e 1 0 ]
+"80
+[v _KPAD_StopInput KPAD_StopInput `(v  1 e 1 0 ]
+"84
+[v _KPAD_GetChar KPAD_GetChar `(uc  1 e 1 0 ]
+"91
+[v _KPAD_SetSMS KPAD_SetSMS `(v  1 e 1 0 ]
+"97
+[v _KPAD_UnsetSMS KPAD_UnsetSMS `(v  1 e 1 0 ]
+"101
+[v _KPAD_Motor KPAD_Motor `(v  1 e 1 0 ]
+"193
+[v _escombra escombra `(v  1 e 1 0 ]
+"72 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"112
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+"119
+[v _LCD_CursorOn LCD_CursorOn `(v  1 e 1 0 ]
+"126
+[v _LCD_CursorOff LCD_CursorOff `(v  1 e 1 0 ]
+"133
+[v _LCD_GotoXY LCD_GotoXY `(v  1 e 1 0 ]
+"160
+[v _LCD_PutChar LCD_PutChar `(v  1 e 1 0 ]
+"180
+[v _LCD_PreviewChar LCD_PreviewChar `(v  1 e 1 0 ]
+"186
+[v _LCD_PutString LCD_PutString `(v  1 e 1 0 ]
+"195
+[v _LCD_Motor LCD_Motor `(v  1 e 1 0 ]
+"206
+[v _LCD_IsAvailable LCD_IsAvailable `(uc  1 e 1 0 ]
+"218
+[v _Espera Espera `(v  1 e 1 0 ]
+"223
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+"230
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+"237
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+"253
+[v _CantaData CantaData `(v  1 e 1 0 ]
+"269
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+"287
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+"18 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MARQUESINA.c
+[v _MQ_Init MQ_Init `(v  1 e 1 0 ]
+"23
+[v _MQ_Clear MQ_Clear `(v  1 e 1 0 ]
+"30
+[v _MQ_PutString MQ_PutString `(v  1 e 1 0 ]
+"48
+[v _MQ_Motor MQ_Motor `(v  1 e 1 0 ]
+"103
+[v _strlen strlen `(uc  1 e 1 0 ]
+"30 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _MENU_Init MENU_Init `(v  1 e 1 0 ]
+"37
+[v _MENU_Mostrar MENU_Mostrar `(v  1 e 1 0 ]
+"47
+[v _MENU_OptionUp MENU_OptionUp `(v  1 e 1 0 ]
+"53
+[v _MENU_OptionDown MENU_OptionDown `(v  1 e 1 0 ]
+"59
+[v _MENU_Motor MENU_Motor `(v  1 e 1 0 ]
+"172
+[v _exitMenu exitMenu `(v  1 e 1 0 ]
+"23 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENURECORDINGS.c
+[v _MRCD_Init MRCD_Init `(v  1 e 1 0 ]
+"29
+[v _MRCD_Mostrar MRCD_Mostrar `(v  1 e 1 0 ]
+"48
+[v _MRCD_OptionUp MRCD_OptionUp `(v  1 e 1 0 ]
+"56
+[v _MRCD_OptionDown MRCD_OptionDown `(v  1 e 1 0 ]
+"64
+[v _MRCD_Motor MRCD_Motor `(v  1 e 1 0 ]
+"142
+[v _fillStrAux fillStrAux `(v  1 e 1 0 ]
+"18 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MICRO.c
+[v _MICRO_Init MICRO_Init `(v  1 e 1 0 ]
+"26
+[v _MICRO_ListenAndSend MICRO_ListenAndSend `(v  1 e 1 0 ]
+"37
+[v _MICRO_Motor MICRO_Motor `(v  1 e 1 0 ]
+"14 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_PORT.c
+[v _PORT_Init PORT_Init `(v  1 e 1 0 ]
+"19
+[v _PORT_Mostrar PORT_Mostrar `(v  1 e 1 0 ]
+"23
+[v _PORT_GetName PORT_GetName `(*.30uc  1 e 2 0 ]
+"27
+[v _PORT_Motor PORT_Motor `(v  1 e 1 0 ]
+"9 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SAVERECORDINGS.c
+[v _SAVE_Init SAVE_Init `(v  1 e 1 0 ]
+"20
+[v _SAVE_PutRecording SAVE_PutRecording `(v  1 e 1 0 ]
+"36
+[v _SAVE_Motor SAVE_Motor `(v  1 e 1 0 ]
+"9 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SIO.c
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+"21
+[v _SIO_RXAvailable SIO_RXAvailable `(uc  1 e 1 0 ]
+"26
+[v _SIO_GetChar SIO_GetChar `(uc  1 e 1 0 ]
+"32
+[v _SIO_TXAvailable SIO_TXAvailable `(uc  1 e 1 0 ]
+"37
+[v _SIO_PutChar SIO_PutChar `(v  1 e 1 0 ]
+"24 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+"31
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+"42
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+"52
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+"57
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+"62
+[v _TI_CloseTimer TI_CloseTimer `(v  1 e 1 0 ]
+"66
+[v _TI_Wait40ms TI_Wait40ms `(v  1 e 1 0 ]
+"18 C:\Users\bielcarpi\Desktop\P2FB.X/TAD_BUZZER.h
+[v _MELODY MELODY `C[12]uc  1 e 12 0 ]
+[s S24 Recording 6 `[2]uc 1 id 2 0 `[4]uc 1 timestamp 4 2 ]
+"11 C:\Users\bielcarpi\Desktop\P2FB.X/TAD_SAVERECORDINGS.h
+[v _recordings recordings `[10]S24  1 e 60 0 ]
+"12
+[v _numRecordings numRecordings `uc  1 e 1 0 ]
+"284 C:\Program Files\Microchip\xc8\v2.41\pic\include\proc\pic18f4321.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"463
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+[s S363 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"508
+[s S449 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S458 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 P1A 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S467 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S469 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S473 . 1 `S363 1 . 1 0 `S449 1 . 1 0 `S458 1 . 1 0 `S467 1 . 1 0 `S469 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES473  1 e 1 @3970 ]
+[s S601 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"680
+[s S708 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S717 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S722 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S725 . 1 `S601 1 . 1 0 `S708 1 . 1 0 `S717 1 . 1 0 `S722 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES725  1 e 1 @3971 ]
+[s S1171 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1127
+[s S1180 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S1189 . 1 `S1171 1 . 1 0 `S1180 1 . 1 0 ]
+[v _LATBbits LATBbits `VES1189  1 e 1 @3978 ]
+[s S659 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1351
+[s S668 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S677 . 1 `S659 1 . 1 0 `S668 1 . 1 0 ]
+[v _LATDbits LATDbits `VES677  1 e 1 @3980 ]
+[s S1013 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1520
+[s S1022 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S1031 . 1 `S1013 1 . 1 0 `S1022 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES1031  1 e 1 @3986 ]
+[s S394 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1742
+[s S403 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S412 . 1 `S394 1 . 1 0 `S403 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES412  1 e 1 @3987 ]
+[s S354 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1964
+[u S372 . 1 `S354 1 . 1 0 `S363 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES372  1 e 1 @3988 ]
+[s S592 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2186
+[u S610 . 1 `S592 1 . 1 0 `S601 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES610  1 e 1 @3989 ]
+[s S959 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"2704
+[s S968 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S972 . 1 `S959 1 . 1 0 `S968 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES972  1 e 1 @3998 ]
+[s S1475 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 WR 1 0 :1:1 
+`uc 1 WREN 1 0 :1:2 
+`uc 1 WRERR 1 0 :1:3 
+`uc 1 FREE 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CFGS 1 0 :1:6 
+`uc 1 EEPGD 1 0 :1:7 
+]
+"3055
+[s S1484 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 EEFS 1 0 :1:6 
+]
+[u S1487 . 1 `S1475 1 . 1 0 `S1484 1 . 1 0 ]
+[v _EECON1bits EECON1bits `VES1487  1 e 1 @4006 ]
+"3100
+[v _EECON2 EECON2 `VEuc  1 e 1 @4007 ]
+"3107
+[v _EEDATA EEDATA `VEuc  1 e 1 @4008 ]
+"3114
+[v _EEADR EEADR `VEuc  1 e 1 @4009 ]
+"3121
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"3331
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"3587
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"3599
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"3611
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"3623
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S909 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"4188
+[s S918 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S923 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S926 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S929 . 1 `S909 1 . 1 0 `S918 1 . 1 0 `S923 1 . 1 0 `S926 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES929  1 e 1 @4024 ]
+"4645
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"4716
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S1053 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"4845
+[s S1056 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :4:2 
+]
+[s S1060 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+]
+[s S1067 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S1070 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S1073 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S1076 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S1079 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S1082 . 1 `S1053 1 . 1 0 `S1056 1 . 1 0 `S1060 1 . 1 0 `S1067 1 . 1 0 `S1070 1 . 1 0 `S1073 1 . 1 0 `S1076 1 . 1 0 `S1079 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1082  1 e 1 @4034 ]
+"4934
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S82 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"5724
+[s S84 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S87 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S90 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S93 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S96 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S104 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+]
+[u S112 . 1 `S82 1 . 1 0 `S84 1 . 1 0 `S87 1 . 1 0 `S90 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S104 1 . 1 0 ]
+[v _RCONbits RCONbits `VES112  1 e 1 @4048 ]
+"6183
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+"6260
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"6267
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+[s S27 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6733
+[s S36 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S45 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S49 . 1 `S27 1 . 1 0 `S36 1 . 1 0 `S45 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES49  1 e 1 @4082 ]
+"8513
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"9 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _state@TAD_BUZZER$F1215 state `uc  1 s 1 state ]
+"10
+[v _timerPWM timerPWM `uc  1 s 1 timerPWM ]
+[v _timerNote timerNote `uc  1 s 1 timerNote ]
+[v _timerMelody timerMelody `uc  1 s 1 timerMelody ]
+"11
+[v _period period `uc  1 s 1 period ]
+[v _dutyCycle dutyCycle `uc  1 s 1 dutyCycle ]
+"12
+[v _playingMelody playingMelody `uc  1 s 1 playingMelody ]
+"13
+[v _melodyIndex melodyIndex `uc  1 s 1 melodyIndex ]
+"14
+[v _melodyPause melodyPause `ui  1 s 2 melodyPause ]
+"14 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _time time `[4]uc  1 s 4 time ]
+"15
+[v _timeAux timeAux `[4]uc  1 s 4 timeAux ]
+"16
+[v _strAux@TAD_COUNTER$F1352 strAux `[6]uc  1 s 6 strAux ]
+"17
+[v _timeAuxIndex timeAuxIndex `uc  1 s 1 timeAuxIndex ]
+"18
+[v _timerHora timerHora `uc  1 s 1 timerHora ]
+"19
+[v _modifyTime modifyTime `uc  1 s 1 modifyTime ]
+"20
+[v _showTime showTime `uc  1 s 1 showTime ]
+"21
+[v _state@TAD_COUNTER$F1357 state `uc  1 s 1 state ]
+"4 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _enabled enabled `uc  1 s 1 enabled ]
+"5
+[v _lastMove lastMove `uc  1 s 1 lastMove ]
+"6
+[v _ready@TAD_JOYSTICK$F1124 ready `uc  1 s 1 ready ]
+"7
+[v _state@TAD_JOYSTICK$F1125 state `uc  1 s 1 state ]
+"13 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_VALUES KPAD_VALUES `[12]*.25Cuc  1 s 24 KPAD_VALUES ]
+"20
+[v _KPAD_INT_VALUES KPAD_INT_VALUES `C[4][3]uc  1 s 12 KPAD_INT_VALUES ]
+"28
+[v _KPAD_PRESSES KPAD_PRESSES `C[12]uc  1 e 12 0 ]
+"33
+[v _KPAD_NO_SMS KPAD_NO_SMS `C[12]uc  1 e 12 0 ]
+"37
+[v _KPAD_NOTES KPAD_NOTES `C[12]uc  1 e 12 0 ]
+"41
+[v _timerSms timerSms `uc  1 s 1 timerSms ]
+"42
+[v _timerRebots timerRebots `uc  1 s 1 timerRebots ]
+"43
+[v _state state `uc  1 s 1 state ]
+"44
+[v _smsMode smsMode `uc  1 s 1 smsMode ]
+"46
+[v _rowValues rowValues `uc  1 s 1 rowValues ]
+"48
+[v _currentValue currentValue `uc  1 s 1 currentValue ]
+"49
+[v _previousValue previousValue `uc  1 s 1 previousValue ]
+"51
+[v _ready ready `uc  1 s 1 ready ]
+"52
+[v _smsPressed smsPressed `uc  1 s 1 smsPressed ]
+"53
+[v _pressCount pressCount `uc  1 s 1 pressCount ]
+"44 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _Rows Rows `uc  1 s 1 Rows ]
+[v _Columns Columns `uc  1 s 1 Columns ]
+"45
+[v _RowAct RowAct `uc  1 s 1 RowAct ]
+[v _ColumnAct ColumnAct `uc  1 s 1 ColumnAct ]
+"46
+[v _Timer Timer `uc  1 s 1 Timer ]
+"47
+[v _str str `*.35uc  1 s 2 str ]
+"48
+[v _index index `uc  1 s 1 index ]
+"49
+[v _state@TAD_LCD$F764 state `uc  1 s 1 state ]
+"8 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MARQUESINA.c
+[v _state@TAD_MARQUESINA$F1253 state `uc  1 s 1 state ]
+"9
+[v _indexL1 indexL1 `uc  1 s 1 indexL1 ]
+[v _indexL2 indexL2 `uc  1 s 1 indexL2 ]
+"10
+[v _sizeL1 sizeL1 `uc  1 s 1 sizeL1 ]
+[v _sizeL2 sizeL2 `uc  1 s 1 sizeL2 ]
+"11
+[v _biggerSize biggerSize `uc  1 s 1 biggerSize ]
+"12
+[v _strL1 strL1 `*.25uc  1 s 2 strL1 ]
+[v _strL2 strL2 `*.25uc  1 s 2 strL2 ]
+"13
+[v _timer timer `uc  1 s 1 timer ]
+"22 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _state@TAD_MENU$F1311 state `uc  1 s 1 state ]
+"23
+[v _option option `uc  1 s 1 option ]
+"24
+[v _printNext printNext `uc  1 s 1 printNext ]
+"25
+[v _timerByeBye timerByeBye `uc  1 s 1 timerByeBye ]
+"15 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENURECORDINGS.c
+[v _state@TAD_MENURECORDINGS$F1579 state `uc  1 s 1 state ]
+"16
+[v _option@TAD_MENURECORDINGS$F1580 option `uc  1 s 1 option ]
+"17
+[v _indexSent indexSent `uc  1 s 1 indexSent ]
+"18
+[v _strAux strAux `[12]uc  1 e 12 0 ]
+"12 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MICRO.c
+[v _state@TAD_MICRO$F1460 state `uc  1 s 1 state ]
+"13
+[v _sentSamples sentSamples `ui  1 s 2 sentSamples ]
+"14
+[v _txTimer txTimer `uc  1 s 1 txTimer ]
+"15
+[v _indexAux indexAux `uc  1 s 1 indexAux ]
+"16
+[v _newID newID `[2]uc  1 s 2 newID ]
+"10 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_PORT.c
+[v _state@TAD_PORT$F865 state `uc  1 s 1 state ]
+"11
+[v _numChars numChars `uc  1 s 1 numChars ]
+"12
+[v _portName portName `[4]uc  1 s 4 portName ]
+"4 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SAVERECORDINGS.c
+[v _state@TAD_SAVERECORDINGS$F1534 state `uc  1 s 1 state ]
+"5
+[v _index@TAD_SAVERECORDINGS$F1535 index `uc  1 s 1 index ]
+"6
+[v _recordingField recordingField `uc  1 s 1 recordingField ]
+[s S297 Timer 5 `ul 1 TicsInicials 4 0 `uc 1 Busy 1 4 ]
+"20 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _Timers Timers `[16]S297  1 s 80 Timers ]
+"22
+[v _Tics Tics `VEul  1 s 4 Tics ]
+"50 C:\Users\bielcarpi\Desktop\P2FB.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"87
+} 0
+"43
+[v _configInterrupts configInterrupts `(v  1 e 1 0 ]
+{
+"47
+} 0
+"38
+[v _configADC configADC `(v  1 e 1 0 ]
+{
+"41
+} 0
+"66 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _TI_Wait40ms TI_Wait40ms `(v  1 e 1 0 ]
+{
+"67
+[v TI_Wait40ms@Timer Timer `uc  1 a 1 13 ]
+"72
+} 0
+"62
+[v _TI_CloseTimer TI_CloseTimer `(v  1 e 1 0 ]
+{
+[v TI_CloseTimer@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_CloseTimer@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_CloseTimer@TimerHandle TimerHandle `uc  1 a 1 0 ]
+"64
+} 0
+"31
+[v _TI_Init TI_Init `(v  1 e 1 0 ]
+{
+"32
+[v TI_Init@counter counter `uc  1 a 1 0 ]
+"40
+} 0
+"9 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SIO.c
+[v _SIO_Init SIO_Init `(v  1 e 1 0 ]
+{
+"19
+} 0
+"36 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SAVERECORDINGS.c
+[v _SAVE_Motor SAVE_Motor `(v  1 e 1 0 ]
+{
+"122
+} 0
+"9
+[v _SAVE_Init SAVE_Init `(v  1 e 1 0 ]
+{
+"18
+} 0
+"27 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_PORT.c
+[v _PORT_Motor PORT_Motor `(v  1 e 1 0 ]
+{
+"28
+[v PORT_Motor@aux aux `uc  1 a 1 24 ]
+"91
+} 0
+"91 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_SetSMS KPAD_SetSMS `(v  1 e 1 0 ]
+{
+"95
+} 0
+"49 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_ResetTime CNT_ResetTime `(v  1 e 1 0 ]
+{
+"51
+} 0
+"14 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_PORT.c
+[v _PORT_Init PORT_Init `(v  1 e 1 0 ]
+{
+"17
+} 0
+"64 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENURECORDINGS.c
+[v _MRCD_Motor MRCD_Motor `(v  1 e 1 0 ]
+{
+"67
+[v MRCD_Motor@aux aux `uc  1 a 1 26 ]
+"139
+} 0
+"142
+[v _fillStrAux fillStrAux `(v  1 e 1 0 ]
+{
+[v fillStrAux@opt opt `uc  1 a 1 wreg ]
+[v fillStrAux@opt opt `uc  1 a 1 wreg ]
+[v fillStrAux@opt opt `uc  1 a 1 0 ]
+"155
+} 0
+"48
+[v _MRCD_OptionUp MRCD_OptionUp `(v  1 e 1 0 ]
+{
+"54
+} 0
+"56
+[v _MRCD_OptionDown MRCD_OptionDown `(v  1 e 1 0 ]
+{
+"62
+} 0
+"23
+[v _MRCD_Init MRCD_Init `(v  1 e 1 0 ]
+{
+"27
+} 0
+"48 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MARQUESINA.c
+[v _MQ_Motor MQ_Motor `(v  1 e 1 0 ]
+{
+"99
+} 0
+"18
+[v _MQ_Init MQ_Init `(v  1 e 1 0 ]
+{
+"21
+} 0
+"37 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MICRO.c
+[v _MICRO_Motor MICRO_Motor `(v  1 e 1 0 ]
+{
+"84
+} 0
+"32 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SIO.c
+[v _SIO_TXAvailable SIO_TXAvailable `(uc  1 e 1 0 ]
+{
+"35
+} 0
+"21
+[v _SIO_RXAvailable SIO_RXAvailable `(uc  1 e 1 0 ]
+{
+"24
+} 0
+"26
+[v _SIO_GetChar SIO_GetChar `(uc  1 e 1 0 ]
+{
+"30
+} 0
+"20 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SAVERECORDINGS.c
+[v _SAVE_PutRecording SAVE_PutRecording `(v  1 e 1 0 ]
+{
+[v SAVE_PutRecording@id id `*.30uc  1 p 1 2 ]
+[v SAVE_PutRecording@timestamp timestamp `*.30uc  1 p 1 3 ]
+"34
+} 0
+"148 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_GetTimeArr CNT_GetTimeArr `(*.30uc  1 e 2 0 ]
+{
+"150
+} 0
+"144
+[v _CNT_GetTime CNT_GetTime `(uc  1 e 1 0 ]
+{
+[v CNT_GetTime@index index `uc  1 a 1 wreg ]
+[v CNT_GetTime@index index `uc  1 a 1 wreg ]
+[v CNT_GetTime@index index `uc  1 a 1 0 ]
+"146
+} 0
+"37 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _BUZZ_PlayMelody BUZZ_PlayMelody `(v  1 e 1 0 ]
+{
+"43
+} 0
+"18 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MICRO.c
+[v _MICRO_Init MICRO_Init `(v  1 e 1 0 ]
+{
+"24
+} 0
+"59 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _MENU_Motor MENU_Motor `(v  1 e 1 0 ]
+{
+"60
+[v MENU_Motor@aux aux `uc  1 a 1 26 ]
+"169
+} 0
+"172
+[v _exitMenu exitMenu `(v  1 e 1 0 ]
+{
+"176
+} 0
+"23 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MARQUESINA.c
+[v _MQ_Clear MQ_Clear `(v  1 e 1 0 ]
+{
+"28
+} 0
+"21 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _JOY_Disable JOY_Disable `(v  1 e 1 0 ]
+{
+"23
+} 0
+"19 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_PORT.c
+[v _PORT_Mostrar PORT_Mostrar `(v  1 e 1 0 ]
+{
+"21
+} 0
+"23
+[v _PORT_GetName PORT_GetName `(*.30uc  1 e 2 0 ]
+{
+"25
+} 0
+"29 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENURECORDINGS.c
+[v _MRCD_Mostrar MRCD_Mostrar `(v  1 e 1 0 ]
+{
+"46
+} 0
+"30 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MARQUESINA.c
+[v _MQ_PutString MQ_PutString `(v  1 e 1 0 ]
+{
+[v MQ_PutString@s s `*.25uc  1 p 2 19 ]
+[v MQ_PutString@line line `uc  1 p 1 21 ]
+"46
+} 0
+"103
+[v _strlen strlen `(uc  1 e 1 0 ]
+{
+"104
+[v strlen@i i `uc  1 a 1 4 ]
+"103
+[v strlen@s s `*.25uc  1 p 2 0 ]
+"107
+} 0
+"26 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MICRO.c
+[v _MICRO_ListenAndSend MICRO_ListenAndSend `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_SIO.c
+[v _SIO_PutChar SIO_PutChar `(v  1 e 1 0 ]
+{
+[v SIO_PutChar@Valor Valor `uc  1 a 1 wreg ]
+[v SIO_PutChar@Valor Valor `uc  1 a 1 wreg ]
+"40
+[v SIO_PutChar@Valor Valor `uc  1 a 1 0 ]
+"41
+} 0
+"47 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _MENU_OptionUp MENU_OptionUp `(v  1 e 1 0 ]
+{
+"51
+} 0
+"53
+[v _MENU_OptionDown MENU_OptionDown `(v  1 e 1 0 ]
+{
+"57
+} 0
+"25 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _JOY_GetMove JOY_GetMove `(uc  1 e 1 0 ]
+{
+"30
+[v JOY_GetMove@aux aux `uc  1 a 1 0 ]
+"33
+} 0
+"30 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_ShowTime CNT_ShowTime `(v  1 e 1 0 ]
+{
+"35
+} 0
+"37
+[v _CNT_ModifyTime CNT_ModifyTime `(v  1 e 1 0 ]
+{
+"47
+} 0
+"119 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _LCD_CursorOn LCD_CursorOn `(v  1 e 1 0 ]
+{
+"124
+} 0
+"30 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _MENU_Init MENU_Init `(v  1 e 1 0 ]
+{
+"35
+} 0
+"195 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _LCD_Motor LCD_Motor `(v  1 e 1 0 ]
+{
+"204
+} 0
+"72
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+[v LCD_Init@rows rows `uc  1 a 1 wreg ]
+"78
+[v LCD_Init@i i `i  1 a 2 21 ]
+"72
+[v LCD_Init@rows rows `uc  1 a 1 wreg ]
+[v LCD_Init@columns columns `uc  1 p 1 19 ]
+"79
+[v LCD_Init@rows rows `uc  1 a 1 20 ]
+"110
+} 0
+"287
+[v _EscriuPrimeraOrdre EscriuPrimeraOrdre `(v  1 e 1 0 ]
+{
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 wreg ]
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 wreg ]
+"289
+[v EscriuPrimeraOrdre@ordre ordre `uc  1 a 1 1 ]
+"296
+} 0
+"101 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_Motor KPAD_Motor `(v  1 e 1 0 ]
+{
+"103
+[v KPAD_Motor@currCol currCol `uc  1 a 1 25 ]
+"102
+[v KPAD_Motor@currRow currRow `uc  1 a 1 24 ]
+"190
+} 0
+"193
+[v _escombra escombra `(v  1 e 1 0 ]
+{
+"197
+} 0
+"180 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _LCD_PreviewChar LCD_PreviewChar `(v  1 e 1 0 ]
+{
+[v LCD_PreviewChar@c c `uc  1 a 1 wreg ]
+[v LCD_PreviewChar@c c `uc  1 a 1 wreg ]
+"182
+[v LCD_PreviewChar@c c `uc  1 a 1 21 ]
+"184
+} 0
+"58 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_Init KPAD_Init `(v  1 e 1 0 ]
+{
+"73
+} 0
+"35 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _JOY_Motor JOY_Motor `(v  1 e 1 0 ]
+{
+"61
+} 0
+"9
+[v _JOY_Init JOY_Init `(v  1 e 1 0 ]
+{
+"15
+} 0
+"53 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_Motor CNT_Motor `(v  1 e 1 0 ]
+{
+"54
+[v CNT_Motor@aux aux `uc  1 a 1 24 ]
+"142
+} 0
+"37 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_MENU.c
+[v _MENU_Mostrar MENU_Mostrar `(v  1 e 1 0 ]
+{
+"45
+} 0
+"97 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_UnsetSMS KPAD_UnsetSMS `(v  1 e 1 0 ]
+{
+"99
+} 0
+"75
+[v _KPAD_StartInput KPAD_StartInput `(v  1 e 1 0 ]
+{
+"78
+} 0
+"17 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_JOYSTICK.c
+[v _JOY_Enable JOY_Enable `(v  1 e 1 0 ]
+{
+"19
+} 0
+"186 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_LCD.c
+[v _LCD_PutString LCD_PutString `(v  1 e 1 0 ]
+{
+[v LCD_PutString@s s `*.35uc  1 p 2 2 ]
+"193
+} 0
+"160
+[v _LCD_PutChar LCD_PutChar `(v  1 e 1 0 ]
+{
+[v LCD_PutChar@c c `uc  1 a 1 wreg ]
+[v LCD_PutChar@c c `uc  1 a 1 wreg ]
+"170
+[v LCD_PutChar@c c `uc  1 a 1 21 ]
+"178
+} 0
+"133
+[v _LCD_GotoXY LCD_GotoXY `(v  1 e 1 0 ]
+{
+[v LCD_GotoXY@Column Column `uc  1 a 1 wreg ]
+"137
+[v LCD_GotoXY@Fisics Fisics `uc  1 a 1 19 ]
+"133
+[v LCD_GotoXY@Column Column `uc  1 a 1 wreg ]
+[v LCD_GotoXY@Row Row `uc  1 p 1 14 ]
+[v LCD_GotoXY@Column Column `uc  1 a 1 20 ]
+"158
+} 0
+"253
+[v _CantaData CantaData `(v  1 e 1 0 ]
+{
+[v CantaData@Data Data `uc  1 a 1 wreg ]
+[v CantaData@Data Data `uc  1 a 1 wreg ]
+[v CantaData@Data Data `uc  1 a 1 2 ]
+"267
+} 0
+"206
+[v _LCD_IsAvailable LCD_IsAvailable `(uc  1 e 1 0 ]
+{
+"208
+} 0
+"126
+[v _LCD_CursorOff LCD_CursorOff `(v  1 e 1 0 ]
+{
+"131
+} 0
+"112
+[v _LCD_Clear LCD_Clear `(v  1 e 1 0 ]
+{
+"117
+} 0
+"269
+[v _WaitForBusy WaitForBusy `(v  1 e 1 0 ]
+{
+[v WaitForBusy@Busy Busy `uc  1 a 1 13 ]
+"285
+} 0
+"218
+[v _Espera Espera `(v  1 e 1 0 ]
+{
+[v Espera@Timer Timer `uc  1 a 1 wreg ]
+[v Espera@Timer Timer `uc  1 a 1 wreg ]
+[v Espera@ms ms `uc  1 p 1 13 ]
+[v Espera@Timer Timer `uc  1 a 1 18 ]
+"221
+} 0
+"237
+[v _CantaIR CantaIR `(v  1 e 1 0 ]
+{
+[v CantaIR@IR IR `uc  1 a 1 wreg ]
+[v CantaIR@IR IR `uc  1 a 1 wreg ]
+[v CantaIR@IR IR `uc  1 a 1 2 ]
+"251
+} 0
+"230
+[v _CantaPartBaixa CantaPartBaixa `(v  1 e 1 0 ]
+{
+[v CantaPartBaixa@c c `uc  1 a 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 a 1 wreg ]
+[v CantaPartBaixa@c c `uc  1 a 1 1 ]
+"235
+} 0
+"223
+[v _CantaPartAlta CantaPartAlta `(v  1 e 1 0 ]
+{
+[v CantaPartAlta@c c `uc  1 a 1 wreg ]
+[v CantaPartAlta@c c `uc  1 a 1 wreg ]
+[v CantaPartAlta@c c `uc  1 a 1 1 ]
+"228
+} 0
+"80 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_KEYPAD.c
+[v _KPAD_StopInput KPAD_StopInput `(v  1 e 1 0 ]
+{
+"82
+} 0
+"84
+[v _KPAD_GetChar KPAD_GetChar `(uc  1 e 1 0 ]
+{
+"86
+[v KPAD_GetChar@aux aux `uc  1 a 1 4 ]
+"89
+} 0
+"24 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_COUNTER.c
+[v _CNT_Init CNT_Init `(v  1 e 1 0 ]
+{
+"28
+} 0
+"45 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _BUZZ_Motor BUZZ_Motor `(v  1 e 1 0 ]
+{
+"86
+} 0
+"57 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _TI_GetTics TI_GetTics `(ul  1 e 4 0 ]
+{
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+"58
+[v TI_GetTics@CopiaTicsActual CopiaTicsActual `ul  1 a 4 8 ]
+"57
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_GetTics@TimerHandle TimerHandle `uc  1 a 1 12 ]
+"60
+} 0
+"28 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _BUZZ_Play BUZZ_Play `(v  1 e 1 0 ]
+{
+[v BUZZ_Play@note note `uc  1 a 1 wreg ]
+[v BUZZ_Play@note note `uc  1 a 1 wreg ]
+"31
+[v BUZZ_Play@note note `uc  1 a 1 1 ]
+"35
+} 0
+"52 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _TI_ResetTics TI_ResetTics `(v  1 e 1 0 ]
+{
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 wreg ]
+[v TI_ResetTics@TimerHandle TimerHandle `uc  1 a 1 0 ]
+"54
+} 0
+"17 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_BUZZER.c
+[v _BUZZ_Init BUZZ_Init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"42 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _TI_NewTimer TI_NewTimer `(uc  1 e 1 0 ]
+{
+"43
+[v TI_NewTimer@Comptador Comptador `uc  1 a 1 2 ]
+"42
+[v TI_NewTimer@TimerHandle TimerHandle `*.30uc  1 p 1 0 ]
+"50
+} 0
+"33 C:\Users\bielcarpi\Desktop\P2FB.X\main.c
+[v _HighRSI HighRSI `IIH(v  1 e 1 0 ]
+{
+"35
+} 0
+"24 C:\Users\bielcarpi\Desktop\P2FB.X\TAD_TIMER.c
+[v _RSI_Timer0 RSI_Timer0 `(v  1 e 1 0 ]
+{
+"29
+} 0
